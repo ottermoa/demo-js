@@ -1,26 +1,18 @@
-//array functions
+let fruits = ['Apple', 'Banana', 'Orange'];
 
-//normal function
-function saySomething() {
-    console.log("สวัสดีจ้า")
-}
+fruits[4] = 'Melon' //index เปลี่ยนค่า
+console.log(fruits);
 
-//Array Functions
+// unshift ใส่เป็นตัวแรก push ใส่เป็นตัวสุท้าย
+// shift ลบข้อมูลตัวแรก pop ลบข้อมูลตัวสุดท้าย
+fruits.push('Watermelon');
 
-let sayButton = document.getElementById('say-Button');
+fruits.pop();
 
-//function saySomething1() {
-//    console.log("มีอะไรค๊า");
-//}
-// ^---- แบบเดิม
-function showMessage() {
-    message.innerHTML = "kuay";
-}
-sayButton.addEventListener('click', function() {
-    console.log('มีอะไรค๊าพส');
-});
+// splice (ตำแหน่ง, จำนวนตัวที่จะลบ, ข้อมูลที่จะใส่เพิ่ม)
+fruits.splice(1, 1, 'Pineapple');
 
-// ประหยัดบรรทัด ไม่ต้องใช้function ซ้ำ
+console.log(fruits);
 
-
-
+// การนับmember
+console.log(fruits.length);
