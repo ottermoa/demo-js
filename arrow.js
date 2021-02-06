@@ -14,7 +14,7 @@ let sayButton = document.getElementById('say-Button');
 //}
 // ^---- แบบเดิม
 function showMessage() {
-    message.innerHTML = "kuay";
+    message.innerHTML = "muay";
 }
 sayButton.addEventListener('click', function() {
     console.log('มีอะไรค๊าพส');
