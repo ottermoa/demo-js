@@ -7,7 +7,7 @@ function printMultiply() {
     let outputHtml = "";
 
     if (number === 0); {
-        output.innerHTML = "เฮลโล่วเหวอ";
+        output.innerHTML = "เฮลโล่วเวิล์ด";
     }
 
     for (let i = 1; i <= 12; i++) {
